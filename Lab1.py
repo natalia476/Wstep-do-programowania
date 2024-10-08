@@ -118,7 +118,7 @@ print(" ")
 a=4
 b=3
 alfa=30
-pole=(a*b*math.sin(alfa))/2
+pole=(a*b*math.sin(math.radians(alfa)))/2
 print(pole)
 print(" ")
 
