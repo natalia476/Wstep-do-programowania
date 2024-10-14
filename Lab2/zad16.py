@@ -1,4 +1,4 @@
-x = 1234
+x = 123
 
 if x <= 99:
     print("Błędna liczba")

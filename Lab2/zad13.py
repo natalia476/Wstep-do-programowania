@@ -1,6 +1,6 @@
-a = 3
+a = 5
 b = 4
-c = 5
+c = 3
 
 if a > b:
     print("Liczby nie są ułożone rosnąco")
