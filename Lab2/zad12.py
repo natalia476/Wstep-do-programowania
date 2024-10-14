@@ -1,6 +1,6 @@
 a = 5
-b = 5
-c = 10
+b = 13
+c = 12
 
 if a < b:
     if c < a:
@@ -16,5 +16,10 @@ elif b < a:
         print("b i c są najmniejsze")
     else:
         print("c jest najmniejsza")
-else:
-    print("a i b są najmnijsze")
+elif c < a:
+    print("c jest najmniejsza")
+elif a == b:
+    if b == c:
+        print("Wszystkie liczby są takie same")
+    else:
+        print("a i b są najmniejsze")
