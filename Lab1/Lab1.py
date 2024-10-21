@@ -122,7 +122,7 @@ pole=(a*b*math.sin(math.radians(alfa)))/2
 print(pole)
 print(" ")
 
-#zad15
+#zad15.py
 x_a=0
 y_a=0
 x_b=3

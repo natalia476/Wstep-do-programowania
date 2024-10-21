@@ -1,4 +1,4 @@
-x = 5
+x = 6
 
 for i in range(2, x, 1):
     if x % i == 0:
@@ -6,3 +6,4 @@ for i in range(2, x, 1):
         break
     else:
         print("x jest liczbą pierwszą")
+        break
