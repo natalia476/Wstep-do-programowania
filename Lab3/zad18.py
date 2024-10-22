@@ -7,4 +7,5 @@ for a in range(2, 51):
         c = math.sqrt(a ** 2 + b ** 2)
         if c.is_integer() and c <= 50:
             numberOfTriples += 1
+            print(a, b, c)
 print(numberOfTriples)
