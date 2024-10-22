@@ -13,7 +13,7 @@ m = 10
 
 matrix = [] * n
 for i in range(n):
-    numberRandom = randint(0, 20)
     for j in range(m):
-        matrix[i] = numberRandom
+        numberRandom = randint(0, 20)
+        matrix.append(0numberRandom * m)
 print(matrix)
